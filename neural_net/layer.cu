@@ -4,3 +4,4 @@
 //    3. Then,  get a weight update from the gradient.
 //    4. Finally, the output layer will obtain the loss.
 
+#include "layer.h"

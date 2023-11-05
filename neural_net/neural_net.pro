@@ -6,12 +6,15 @@ CONFIG -= app_bundle
 SOURCES += \
     network.cpp \
     train.cpp
+
 HEADERS += \
     layer.h \
     loss.h \
     network.h
 
-CUDA_SOURCES += layer.cu
+CUDA_SOURCES += \
+    layer.cu \
+    loss.cu
 
 
 #================================================================
@@ -67,3 +70,5 @@ cuda.commands = $$CUDA_DIR\bin\nvcc.exe -D_DEBUG $$NVCC_OPTIONS $$CUDA_INC $$LIB
 cuda.dependency_type = TYPE_C
 
 QMAKE_EXTRA_COMPILERS += cuda
+
+
