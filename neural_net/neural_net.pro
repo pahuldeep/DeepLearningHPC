@@ -8,6 +8,7 @@ SOURCES += \
     train.cpp
 
 HEADERS += \
+    blob.h \
     layer.h \
     loss.h \
     network.h
