@@ -23,7 +23,6 @@ CUDA_SOURCES += \
 #CUDA COMPILER SETUP                            @ only debug mode
 #================================================================
 
-
 # Define output directories
 CUDA_OBJECTS_DIR = .
 
