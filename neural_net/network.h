@@ -3,6 +3,9 @@
 
 #include "loss.h"
 #include "layer.h"
+#include "helper.h"
+
+namespace deep {
 
 typedef enum{
     training,
@@ -16,18 +19,20 @@ public:
 
     void add_layer(Layer *layer);
 
-    // forward @declare blob
+    load<float> *forward(load<float> *input);
+    void backward(load<float> *input = nullptr);
+    void update(float learning_rate = 0.02f);
 
-    void backward();
-    void update();
-
-    void loss();
-    void get_accuracy();
+    void loss(load<float> *target);
+    void get_accuracy(load<float> *target);
 
     void train();
     void test();
     void cuda_compile();
 
 };
+
+}
+
 
 #endif // NETWORK_H
