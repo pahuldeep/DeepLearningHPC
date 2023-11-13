@@ -14,7 +14,7 @@ Softmax and loss functions in cuDNN/CUDA
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/pahuldeep/DeepLearningHPC.git
 ```
 
 Go to the project directory
