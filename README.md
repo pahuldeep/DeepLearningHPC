@@ -29,9 +29,9 @@ Install dependencies
   CUDA APIs etc, I will update this later.
 ```
 
-Start the server
+Start the server/local
 
 ```bash
-  
+  I will update this later.
 ```
 
