@@ -1,4 +1,4 @@
-# accelerated_DeepLearning
+# HPC accelerated DeepLearning
 ## TODO
 
 
@@ -20,18 +20,18 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd accelerated_library
+  cd deepLearningHPC
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+  CUDA APIs etc, I will update this later.
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  
 ```
 
