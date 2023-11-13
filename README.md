@@ -2,9 +2,11 @@
 ## TODO
 
 
-1 Fully connected layer acceleration CUBLAS.
-Element-wise(activation) layers with cuDNN
-Softmax and loss functions in cuDNN/CUDA
+1 MultiLayer Perception Network
+
+- Fully connected layer acceleration CUBLAS.
+- Element-wise(activation) layers with cuDNN
+- Softmax and loss functions in cuDNN/CUDA
 
 2 Convolutional neural networks with cuDNN
 
