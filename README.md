@@ -13,15 +13,10 @@
 3 Recurrent neural networks with CUDA
 ## Run Locally
 
-Clone the project
+Clone the project and Go to the project directory
 
 ```bash
   git clone https://github.com/pahuldeep/DeepLearningHPC.git
-```
-
-Go to the project directory
-
-```bash
   cd deepLearningHPC
 ```
 
