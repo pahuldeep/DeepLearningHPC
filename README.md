@@ -23,12 +23,12 @@ Clone the project and Go to the project directory
 Install dependencies
 
 ```bash
-  CUDA APIs etc, I will update this later.
+  CUDA APIs etc, TO-DO.
 ```
 
 Start the server/local
 
 ```bash
-  I will update this later.
+  I will update, TO-DO.
 ```
 
